@@ -2,15 +2,15 @@
   <div class="md-example-child md-example-child-date-picker md-example-child-date-picker-2">
     <md-date-picker
       ref="datePicker"
-      type="datetime"
-      :default-date="currentDate"
+      type="datetime" 
       is-view
       keep-index
     ></md-date-picker>
   </div>
 </template>
 
-<script>import {DatePicker, Dialog} from 'mand-mobile'
+<script>
+import {DatePicker, Dialog} from 'mand-mobile'
 
 export default {
   name: 'date-picker-demo',
@@ -34,4 +34,5 @@ export default {
     }
   },
 }
-</script>
+
+</script>
